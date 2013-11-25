@@ -1,0 +1,55 @@
+Tree:
+  columns:
+    id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    prev:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      notnull: true
+      primary: false
+    name:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      notnull: true
+      primary: false
+    username:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      notnull: true
+      primary: false
+    xml:
+      type: xml
+      fixed: false
+      unsigned: false
+      notnull: true
+      default: '<tree/>'
+      primary: false
+    group:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      notnull: true
+      primary: false
+    u:
+      type: bit(3)
+      fixed: false
+      unsigned: false
+      notnull: true
+      default: 'b''1''1''1'
+      primary: false
+    g:
+      type: bit(3)
+      fixed: false
+      unsigned: false
+      notnull: true
+      default: 'b''1''1''1'
+      primary: false
+
+
