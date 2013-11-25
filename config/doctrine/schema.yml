@@ -51,5 +51,56 @@ Tree:
       notnull: true
       default: 'b''1''1''1'
       primary: false
-
-
+Files:
+  columns:
+    id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    name:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      notnull: true
+      primary: false
+    local_name:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      notnull: true
+      primary: false
+    username:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      notnull: true
+      primary: false
+    group:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      notnull: true
+      primary: false
+    u:
+      type: bit(3)
+      fixed: false
+      unsigned: false
+      notnull: true
+      default: 'b''1''1''1'
+      primary: false
+    g:
+      type: bit(3)
+      fixed: false
+      unsigned: false
+      notnull: true
+      default: 'b''1''1''1'
+      primary: false
+    ctime:
+      type: bit(3)
+      fixed: false
+      unsigned: false
+      notnull: true
+      default: 'b''1''1''1'
+      primary: false
